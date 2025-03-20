@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayezid Rahman Tanmay</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <nav>
+        <div class="header" id="header">
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                            viewBox="0 -960 960 960" width="26" fill="#1f1f1f">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="grid.html">Gallery</a></li>
+            </ul>
+            <ul>
+                <li><a href="#header" class="logo">BAYEZID</a></li>
+                <li class="hideOnMobile"><a href="#header">Home</a></li>
+                <li class="hideOnMobile"><a href="#about">About</a></li>
+                <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+                <li class="hideOnMobile"><a href="#services">Services</a></li>
+                <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+                <li class="hideOnMobile"><a href="grid.html" target="_blank">Gallery</a></li>
+                <li><a href="#modalbox" class="show-modal">Modal</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="26" viewBox="0 -960 960 960" width="26" fill="#1f1f1f">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <main>
+        <div class="main-intro">
+            <h1>Welcome <br> to my website</h1>
+            <p> I'm Bayezid Rahman Tanmay, a passionate web developer who designs innovative, user-centric websites that
+                solve real-world challenges.</p>
+            <a href="#about">More About Me</a>
+        </div>
+    </main>
+
+    <!-- About section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/my image.png" alt="My image">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>Hello, I am Bayezid Rahman Tanmay, a dedicated and passionate web developer based in Helsinki,
+                        Finland. I'm an expert at creating dynamic and appealing websites and web applications, with a
+                        solid background in web design, development, and UI/UX design. Through my proficiency in HTML,
+                        CSS, JavaScript, React, and PHP, I am able to design fluid, responsive, and intuitive digital
+                        experiences. I have a strong desire to turn concepts into useful and aesthetically pleasing
+                        solutions, making sure that every project I work on not only satisfies but beyond expectations.
+                        Whether you want to create a brand-new website or improve an old one, I'm dedicated to providing
+                        you with excellent, customized solutions that support your objectives. Let's work together!
+                    </p>
+                </div>
+                <div class="tabs">
+                    <input type="radio" name="option" id="1" checked />
+                    <label for="1">
+                        <div class="tab-name">Education</div>
+                        <div class="tab-content">
+                            <ul>
+                                <li>Upper Secondary Degree - Uttara High School & College (2021)</li>
+                                <li>Bachelors' Degree in Information & Communication Technology - Häme University of
+                                    Applied Sciences (2024)</li>
+                                <li>Vocational Qualification in Full Stack Web Development Program - Business College
+                                    Helsinki (2025)</li>
+                            </ul>
+                        </div>
+                    </label>
+                    <input type="radio" name="option" id="2" />
+                    <label for="2">
+                        <div class="tab-name">Experiences</div>
+                        <div class="tab-content">
+                            <ul>
+                                <li>UI/UX Designer - DNA Oy (2022 - 2023)</li>
+                                <li>Backend Developer - PayTrail Oy (2023)</li>
+                                <li>Frontend Developer - Momondo Oy (2024 - 2025)</li>
+                            </ul>
+                        </div>
+                    </label>
+                    <input type="radio" name="option" id="3" />
+                    <label for="3">
+                        <div class="tab-name">Expertise</div>
+                        <div class="tab-content">
+                            <ul>
+                                <li>HTML / CSS</li>
+                                <li>JavaScript / React</li>
+                                <li>PHP</li>
+                                <li>Figma / Photoshop</li>
+                            </ul>
+                        </div>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="button">
+            <a href="#" class="download-btn">Download Resume</a>
+            <a href="#contact" class="hire-btn">Hire Me</a>
+        </div>
+    </div>
+
+    <!-- Projects section -->
+
+    <h1 class="projects" id="projects">Projects</h1>
+    <div class="project-container">
+        <div class="card">
+            <img src="images/zoo.png" alt="zoo">
+            <div class="card-content">
+                <h3>Little Zoo</h3>
+                <p>This website allows users to view and add various types of animals. It features the ability to
+                    categorize animals by type, such as mammals, birds, reptiles, amphibians, and fish. Additionally,
+                    users can sort animals from A to Z and add new animals by selecting their type and providing the
+                    necessary details.</p>
+                <a href="https://little-zoo-h16a.vercel.app/" target="_blank" class="btn">Go to site</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/pancake.png" alt="zoo">
+            <div class="card-content">
+                <h3>Pancake Maker</h3>
+                <p>Users can select from a variety of pancake types and choose from an array of toppings and extras. The
+                    site also allows users to select their preferred delivery method, including options for eat-in,
+                    pick-up, or delivery with an added fee. The platform is designed to simplify the ordering process.
+                </p>
+                <a href="https://pancake-ruby.vercel.app/" target="_blank" class="btn">Go to site</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/atm.png" alt="zoo">
+            <div class="card-content">
+                <h3>ATM</h3>
+                <p>This website simulates a basic ATM interface where users can check their balance, deposit, and
+                    withdraw funds. It provides a simple interface for managing virtual transactions, allowing users to
+                    interact with the system as though they are using an actual ATM, but with no real
+                    transactions involved.</p>
+                <a href="https://atm-rho-ten.vercel.app/" target="_blank" class="btn">Go to site</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skilss section -->
+
+    <div class="skills-section">
+        <div class="main-title">
+            <h1>My Skills</h1>
+            <p>This section showcases my programming and design skills Which I have learned through my valuable
+                experiences.</p>
+        </div>
+        <div class="skills-row">
+
+            <!--    Left Section   -->
+
+            <section class="col">
+                <div class="sub-title">
+                    <h2>Programming Skills</h2>
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject">HTML</div>
+                        <div class="progress-bar" value="96%">
+                            <div class="progress-line" style="max-width: 96%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">CSS</div>
+                        <div class="progress-bar" value="89%">
+                            <div class="progress-line" style="max-width: 89%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">JavaScript</div>
+                        <div class="progress-bar" value="84%">
+                            <div class="progress-line" style="max-width: 84%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">Php</div>
+                        <div class="progress-bar" value="77%">
+                            <div class="progress-line" style="max-width: 77%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--  Right Section  -->
+
+            <section class="col">
+                <div class="sub-title">
+                    <h2>Designing Skills</h2>
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject">Photoshop</div>
+                        <div class="progress-bar" value="91%">
+                            <div class="progress-line" style="max-width: 91%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">Illustrator</div>
+                        <div class="progress-bar" value="78%">
+                            <div class="progress-line" style="max-width: 78%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">Figma</div>
+                        <div class="progress-bar" value="97%">
+                            <div class="progress-line" style="max-width: 97%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">Responsive Design</div>
+                        <div class="progress-bar" value="98%">
+                            <div class="progress-line" style="max-width: 98%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Services section -->
+
+
+    <div class="services-container" id="services">
+        <h1>Services</h1>
+        <div class="services-row">
+            <div class="services">
+                <i class="fa-solid fa-pen"></i>
+                <h2>Website Design</h2>
+                <p>I create visually appealing and user-friendly website designs that focus on aesthetics,
+                    functionality, and user experience, ensuring a seamless browsing experience across all devices.</p>
+            </div>
+
+            <div class="services">
+                <i class="fa-solid fa-gear"></i>
+                <h2>Web Development</h2>
+                <p>I build dynamic, responsive, and high-performance websites using the latest technologies, comply with
+                    frontend and backend by ensuring your website is robust, secure, and fully functional.</p>
+            </div>
+
+            <div class="services">
+                <i class="fa-solid fa-palette"></i>
+                <h2>Graphics Design</h2>
+                <p>I design engaging graphics that communicate your brand's message effectively. Whether it's logos,
+                    social media graphics, or promotional material, I bring creativity to every project.</p>
+            </div>
+
+            <div class="services">
+                <i class="fa-brands fa-figma"></i>
+                <h2>Figma</h2>
+                <p>I use Figma to create intuitive, high-quality UI/UX designs and interactive prototypes that
+                    streamline collaboration and bring your vision to life with precision and clarity.</p>
+            </div>
+
+            <div class="services">
+                <i class="fa-solid fa-image"></i>
+                <h2>Photoshop</h2>
+                <p>I specialize in using Photoshop to create and edit stunning visual content, whether it's for web
+                    design, digital marketing, or graphic assets, ensuring pixel-perfect designs that stand out.</p>
+            </div>
+
+            <div class="services">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h2>App Development</h2>
+                <p>I design and develop mobile applications for both iOS and Android platforms, ensuring a smooth user
+                    experience, fast performance, and intuitive interfaces for your target audience.</p>
+            </div>
+
+            <div class="services">
+                <i class="fa-solid fa-tablet-screen-button"></i>
+                <h2>Responsive Design</h2>
+                <p>I ensure that your website is fully optimized for any device, creating designs that adjust seamlessly
+                    to various screen sizes while maintaining performance and accessibility.</p>
+            </div>
+
+            <div class="services">
+                <i class="fa-brands fa-searchengin"></i>
+                <h2>Data Analysis</h2>
+                <p>I provide data analysis services to help you make informed decisions. By interpreting and visualizing
+                    data, I turn complex information into actionable insights to drive business growth.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <h2>Let's get connected</h2>
+            <p>I'm always open to new opportunities, collaborations, or simply a chat about the latest trends in web
+                development and design. If you have a project in mind or just want to ask questions, feel free to reach
+                out. Drop me a message, and let's create something amazing together!</p>
+        </div>
+        <div class="contact-container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon">
+                        <a href="https://maps.app.goo.gl/XLmksVs4dD7nDsHe7" class="location" target="_blank"><i
+                                class="fa-solid fa-location-dot"></i></a>
+                    </div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Rautkaliontie 1F</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <a href="https://apps.apple.com/us/app/phone/id1146562108" target="_blank" class="phone"><i
+                                class="fa-solid fa-phone"></i></a>
+                    </div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>+358 417 186 259</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <a href="https://mail.google.com/" target="_blank" class="mail"><i
+                                class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>bayzidtonmoy123@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form action="">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required>
+                        <span>Full Name</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="email" name="" required>
+                        <span>Email</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <textarea name="" id="" required></textarea>
+                        <span>Type your Message..</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Submit Form">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="wrapper">
+                <div class="footer-widget">
+                    <a href="#" class="logo">BAYEZID</a>
+                    <p class="desc">
+                        Feel free to connect with me on social media for updates, insights, and more. Stay up-to-date
+                        with my latest projects, web development tips, and design inspirations.
+                    </p>
+                    <ul class="socials">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h6>Quick Link</h6>
+                    <ul class="links">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h6>Services</h6>
+                    <ul class="links">
+                        <li><a href="#services">web design</a></li>
+                        <li><a href="#services">web development</a></li>
+                        <li><a href="#services">figma and photoshop design</a></li>
+                        <li><a href="#services">app development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h6>Help &amp; Support</h6>
+                    <ul class="links">
+                        <li><a href="#">support center</a></li>
+                        <li><a href="#">live chat</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">terms &amp; conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright-wrapper">
+                <p>© 2025 Bayezid Rahman Tanmay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Modal -->
+
+    <div id="modalbox" class="modal">
+        <div class="modalcontent">
+            <h1>Confession</h1>
+            <ul>
+                <li>I took the help of AI to write the paragraphs for the various sections of my website</li>
+                <li>I took help from various YouTube channels while designing some parts of the website (like tabs,
+                    progress bars, and some animations). But I can guarantee that I did not copy any code from anywhere.
+                    I
+                    did everything with understanding</li>
+                <li>I’ve been working on adding a dark theme to my website, but I’ve faced a few challenges along the
+                    way. While I’m not able to include it just yet, I’m eager to learn and implement it soon. For now,
+                    I’m launching the site without this feature, but I’m confident I’ll be able to add it in the near
+                    future.</li>
+            </ul>
+            <a href="#" class="modalclose">&times;</a>
+        </div>
+    </div>
+
+    <!-- Back to top -->
+
+    <div class="back-to-top">
+        <a href="#" class="btn"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
